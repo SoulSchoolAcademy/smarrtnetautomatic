@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/api/github/webhooks",
+      "dest": "/api/github/webhooks"
+    },
+    {
+      "src": "/api/github/callback",
+      "dest": "/api/github/callback"
+    },
+    {
+      "src": "/api/github/test",
+      "dest": "/api/github/test"
+    },
+    {
+      "src": "/api/github/dispatch",
+      "dest": "/api/github/dispatch"
+    }
+  ]
+}
